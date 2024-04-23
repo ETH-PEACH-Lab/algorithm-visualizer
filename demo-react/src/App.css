@@ -1,0 +1,80 @@
+.App {
+  display: flex;
+  height: 100vh;
+}
+
+.left-panel {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right-panel {
+  flex: 0 0 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.array-visualization {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.array-square {
+  position: relative;
+  width: 30px;
+  height: 30px;
+  border: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 2px;
+}
+
+.index {
+  position: absolute;
+  bottom: -20px; /* Adjust as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 12px;
+}
+
+.array-square.red {
+  background-color: red;
+}
+
+.array-square.green {
+  background-color: green;
+}
+
+.array-square.blue {
+  background-color: blue;
+}
+
+.button-container {
+  margin-right: 20px;
+}
+
+.array-square {
+  position: relative;
+}
+
+.arrow {
+  position: absolute;
+  top: -30px; /* Adjust as needed */
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.arrow-text {
+  position: absolute;
+  top: -40px; /* Adjust as needed */
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 12px; /* Adjust the font size as needed */
+}
+
+
+
