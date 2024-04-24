@@ -76,5 +76,48 @@
   font-size: 12px; /* Adjust the font size as needed */
 }
 
+.color-inputs {
+  margin-top: 10px;
+}
 
+.context-box {
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  padding: 8px;
+  cursor: move;
+  position: relative;
+}
 
+.context-box input {
+  width: 150px; /* Adjust width as needed */
+}
+
+.delete-button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.pointer {
+  position: absolute;
+  z-index: -1;
+  border: 2px solid black;
+}
+
+.pointer-line {
+  position: absolute;
+  background-color: black;
+  z-index: -1;
+}
+
+.pointer-arrow {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 10px solid black;
+  z-index: -1;
+}
